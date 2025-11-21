@@ -18,11 +18,11 @@ NUM_LINES = 2
 NUM_COLUMNS = 16
 
 #mqtt broker
-aws_broker="a1bbbp30ytbtx3-ats.iot.eu-north-1.amazonaws.com"
-clientid='iotconsole-80277460-568f-4bc0-9595-c1130ba2c097'#name of client
-pkey='hum1.private.pem.key'#private.pem.key
-ccert='hum1.pem.crt'#pem.crt
-#rroot_ca=''#root ca
+aws_broker=""put here aws_broker link
+clientid=''#put here name of client
+pkey=''#put here private.pem.key
+ccert=''#put here pem.crt
+#rroot_ca=''#root ca)(default)
 pub_topic='hum/hum1'#topic
 key=None
 cert=None
