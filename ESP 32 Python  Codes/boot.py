@@ -1,2 +1,2 @@
-ssid='Esm'
-psk='sampath25'
+ssid=''#put your wifiname
+psk=''#put your password
