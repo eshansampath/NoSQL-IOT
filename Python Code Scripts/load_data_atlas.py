@@ -6,16 +6,16 @@ import threading
 import pymongo as pym #database client package for python
 
 #atlas db address
-myclient = pym.MongoClient("mongodb+srv://eshan:malan2000@cluster0.42vnblg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #copy paste the connection string here
+myclient = pym.MongoClient("") #copy paste the connection string here
 
 mydb = myclient["add232iotdb"] #database name
 temp_data = mydb["humidity"] #collection name
 
-ENDPOINT = "a1bbbp30ytbtx3-ats.iot.eu-north-1.amazonaws.com"#aws broker url
-CLIENT_ID = "iotconsole-66b54437-d41d-4a2d-ad04-eade6ce812a3"
-PATH_TO_CERTIFICATE = "hum1.pem.crt"#.pem.crt
-PATH_TO_PRIVATE_KEY = "hum1.private.pem.key"#private.pem.key
-PATH_TO_AMAZON_ROOT_CA_1 = "AmazonRootCA1.pem"#root ca
+ENDPOINT = ""#aws broker url
+CLIENT_ID = "" put here client id
+PATH_TO_CERTIFICATE = ""#.pem.crt
+PATH_TO_PRIVATE_KEY = ""#private.pem.key
+PATH_TO_AMAZON_ROOT_CA_1 = ""#root ca
 
 
 event_loop_group = io.EventLoopGroup(1)
