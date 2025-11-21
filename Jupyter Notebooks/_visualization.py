@@ -10,7 +10,7 @@ import plotly.express as px
 from dash import Dash, dcc, html, Input, Output, callback
 import pymongo
 
-myclient = pymongo.MongoClient("mongodb+srv://eshan:malan2000@cluster0.42vnblg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # atlas db url
+myclient = pymongo.MongoClient("")  #put atlas db url
 iotdb = myclient['add232iotdb']  # database name
 temp_data = iotdb["humidity"]  # collection name
 data_pnt = 15
